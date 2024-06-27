@@ -35,6 +35,9 @@
 # l.extend(["irffan","Amal,Alen"])
 # print(l)
 
+
+
+# not correct
 # a=input("Enter the element")
 # b=input("Append/Extend/Insert")
 # l=["Abhi","Anandhu","Nikhil",20,30]
@@ -43,7 +46,6 @@
     # print(append)
 # elif b==Extend:
     # Extend=l.extend(a)
-# 
 
 
 
@@ -55,7 +57,7 @@
 # print(l)
 
 
-# l=[1,2,3,4,5,6,7,77,45,88,66,99]
+# l=[21,25.35]
 
 # print(l.index(1))
 # print(l.count(2))
@@ -65,9 +67,62 @@
 # print(l)
 
 
-# a=input("Enter how many students")
-# names=[]
-# for i in (1,a):
-#     print("name",l.append(b)
-# b=input(" ")
+# a=int(input("Enter how many students"))
+# name=[]
+# for i in range(a):
+    # n=input("Enter Students Name")
+    # name.append(n)
+# print(name)
 
+
+# a="welcome"
+# b=""
+# for i in a:
+#     b=i+b
+# print(b)
+
+# * * *
+# * * *
+# * * *
+# * * *
+
+# for i in range(4):
+#     for j in range(3):
+#         print('*\n',end="")
+#     print()
+
+
+
+
+# 0 1 2
+# 0 1 2
+# 0 1 2
+# for i in range(3):
+    # for j in range(3):
+        # print(i,end="\t")
+    # print()
+
+
+# add a new list from existing list by without reduntent
+# l=[1,2,3,4,1,2,3,4]
+# a=[]
+# for i in l:
+    # if i not in a: 
+        # a.append(i)
+# print(a)
+
+
+
+# l=['manu','akhil','sonu']
+# for i in l:
+    # rev=''
+    # for j in i:
+        # rev=j+rev
+    # print(rev)
+
+
+
+
+# sum of the list
+l=[1,2,3,'abc',20.5]
+print(type(l))
