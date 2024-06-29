@@ -157,18 +157,14 @@
 # A B C 
 # A B C 
 # A B C 
-a=67
-for i in range(3):
-    for j in range(3):
-        print(chr(a),end="\t")
-        a*=1
-    print()
+# a=65
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(a),end="\t")
+#     print()
+#     a+=1
 
 
-
-# A 
-# A B
-# A B C 
 
 
 
@@ -176,13 +172,45 @@ for i in range(3):
 # A B 
 # A B C 
 
+# a=65
+# for i in range(3):
+#     for j in range(i+1):
+#         print(chr(a+j),end="\t")
+#     print()
+
 
 
 # A 
 # B B 
 # C C C 
+# a=65
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(a),end="\t")
+#     print()
+#     a+=1
 
 
 # A
 # B C 
 # D E F 
+# a=65
+# for i in range(3):
+#     for j in range(i+1):
+#         print(chr(a),end="\t")
+#         a+=1
+#     print()
+
+
+
+
+
+# A
+# B A
+# C B A
+# a=65
+# for i in range(3):
+#     for j in range(i+1):
+#         print(chr(a-j),end='\t')
+#     print()
+#     a+=1
