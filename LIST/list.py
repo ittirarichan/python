@@ -85,3 +85,17 @@
     # elif type(i)==float:
         # n+=i
 # print(n)
+
+
+
+
+
+
+# largest number
+l=[1,2,10,65,20,3]
+n=l[0]
+for i in l:
+    if i>n:
+        n=i
+print("The largest number in the list is:",n)
+        
