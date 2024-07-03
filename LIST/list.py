@@ -92,10 +92,40 @@
 
 
 # largest number
-l=[1,2,10,65,20,3]
-n=l[0]
-for i in l:
-    if i>n:
-        n=i
-print("The largest number in the list is:",n)
+# l=[1,2,10,65,20,3]
+# n=l[0]
+# for i in l:
+#     if i>n:
+#         n=i
         
+
+std=[]
+while True:
+    print("\n1.Add \n2.View \n3.Update \n4.Delete \n5.Exit\n")
+    ch=int(input("Enter your choice "))
+    if ch==1:
+        n=input("Name: ")
+        a=input("Age: ")
+        c=int(input("Class :"))
+        std.append([n,a,c])
+    elif ch==2:
+        for i in std:
+            print(i)
+    elif ch==3:
+        f=0
+        a_name=input("Enter existing name ")
+        for i in std:
+            if a_name in i:
+                age=int(input("Enter new age" ))
+                i[1]=age
+                f=1
+        if f==0:
+            print("The name",a_name,"not in thelist ")
+    elif ch==4:
+        b_name=input("Enter the existing name")
+        for i in std:
+            if b_name in i:
+                std.remove(i)
+                print(b_name,"is deleted ")
+    elif ch==5:
+        break
