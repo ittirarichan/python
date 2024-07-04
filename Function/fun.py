@@ -71,7 +71,85 @@
 
 
 
-def add(**a):
-    return a
-print(add(name="anu",age=24))
-print(add())
+# def add(**a):
+#     return a
+# print(add(name="anu",age=24))
+# print(add())
+
+# add=lambda a,b:a+b
+# print(add(10,5))
+# def add1(a,b):
+#     return a+b
+
+
+
+# add=lambda a,b:a+b
+# def add1(a,b):
+#     return a+b
+
+# sub=lambda a,b:a-b
+# def add1(a,b):
+#     return a-b
+
+# def mul(a,b):
+#     return a*b
+# def div(a,b):
+#     return a/b
+# def nbr():
+#     a=int(input("Enter first number"))
+#     b=int(input("Ener second no"))
+#     return a,b
+
+# while True:
+#     print("\n1.add \n2.sub \n3.mul \n4.div \n5.exit \n")
+#     ch=int(input("Enter your choice"))
+#     if ch==1:
+#         a,b=nbr()
+#         print(add(a,b))
+#     elif ch==2:
+#         a,b=nbr()
+#         print(sub(a,b))
+#     elif ch==3:
+#         a,b=nbr()
+#         print(mul(a,b))
+#     elif ch==4:
+#         a,b=nbr()
+#         print(div(a,b))
+#     elif ch==5:
+#         break
+
+
+# l=[1,2,3,4,5,6]
+# data=map(lambda a:a*2,l)
+# print(data)
+# print(list(data))
+
+
+# def fun(a):
+#     return a**2
+# data1=map(fun,l)
+# print(list(data1))
+
+
+# l=[1,2,3,4,5,6]
+# data=filter(lambda a:a%2==0,l)
+# 
+# def fun(a):
+    # return a>=3
+# data=filter(fun,l)
+# print(list(data))
+
+
+
+# l=["apple","Mango"]
+# def fun1(a):
+#     return a[0]=='a'
+# data1=filter(fun1,l)
+# print(list(data1))
+
+
+
+import functools
+l=[1,2,3,4,5]
+data=functools.reduce(lambda total,value:total*value,l)
+print(data)
