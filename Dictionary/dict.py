@@ -1,4 +1,4 @@
-std={'Name':'Akhil','Age':21,'Place':'EKM'}
+# std={'Name':'Akhil','Age':21,'Place':'EKM'}
 # print(std['Name'])
 
 # std['name']="Manu"
