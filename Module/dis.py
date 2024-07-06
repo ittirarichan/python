@@ -1,4 +1,4 @@
-def display(view):
+def dis(view):
       for i in view:
           print(i)
         
