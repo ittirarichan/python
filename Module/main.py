@@ -1,6 +1,7 @@
 from reg import *
-from dis import *
+from display import *
 from update import *
+from dele import *
 data=[]
 while True:
     print("1.Add \n2.Diaplay \n3.Update \n4.Delete \n5.Exit")
@@ -12,6 +13,6 @@ while True:
     elif ch==3:
         update(data)
     elif ch==4:
-        dele(data)
+        delete(data)
     elif ch==5:
         exit(data)
