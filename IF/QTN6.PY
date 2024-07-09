@@ -6,13 +6,13 @@
 #         > 50000 and <= 100000                                     10%
 #         <= 50000                                                  5%
 
-a=float(input("Enter the Cost "))
-if a>100000:
-    a=(a*0.15)
-    print("The road tax amount is",a)
-elif a>500000 and a<=100000:
-    a=(a*0.10)
-    print ("The road tax amount is",a)
-elif a<=500000:
-    a=(a*0.05)
-    print("The road tax amount is",a)
+# a=float(input("Enter the Cost "))
+# if a>100000:
+#     a=(a*0.15)
+#     print("The road tax amount is",a)
+# elif a>500000 and a<=100000:
+#     a=(a*0.10)
+#     print ("The road tax amount is",a)
+# elif a<=500000:
+#     a=(a*0.05)
+#     print("The road tax amount is",a)

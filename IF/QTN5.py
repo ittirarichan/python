@@ -2,9 +2,9 @@
 # divisible by 3 or not.
 
 
-a=float(input("Enter Numbers"))
-d=a%10
-if d%3==0:
-    print("Divisible")
-else:
-    print("Not divisible")
+# a=float(input("Enter Numbers"))
+# d=a%10
+# if d%3==0:
+#     print("Divisible")
+# else:
+#     print("Not divisible")

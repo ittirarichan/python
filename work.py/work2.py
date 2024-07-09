@@ -6,14 +6,12 @@ while True:
     print("3. Update contacts" )
     print("4. Remove a Contact")
     print("5. Search for a Contact")
-    print("6. Exit")
-
+    print("6. Exit\n")
     choice = input("Enter your choice: ")
     if choice=='1':
         name=input("Enter contact name: ")
         number=input("Enter contact number: ")
         email=input("Enter Email id: ")
-        dob=input("Enter your date of birth: ")
         place=input("Enter your place: ")
         contacts[name]=number
         print("{} added to contacts.".format(name))
@@ -23,13 +21,23 @@ while True:
         else:
             print("\nContacts:")
             for name, number in contacts.items():
-                 print("{:<20}{:<15}{:<30}{:<15}{:<20}".format(name, number, email, dob, place))
+                 print("{:<20}{:<15}{:<30}{:<20}".format(name, number, email, place))
     elif choice == "3":
-            name = input("Enter name to update: ")
-            phone = input("Enter new phone number (leave blank to keep unchanged): ")
-            email = input("Enter new email address (leave blank to keep unchanged): ")
-            update_contact(contacts, name, phone, email)
-            save_contacts(contacts)
+        name=input('enter your name: ')
+        f=0
+        for i in contacts:
+            if name==i[0]:
+                f=1
+                name=str(input('enter new name: '))
+                number=int(input('enter new number: '))
+                email=(input('enter new email: '))
+                exp=int(input('enter new place: '))
+                i[1]=name
+                i[2]=number
+                i[3]=email
+                i[4]=place
+        if f==0:
+            print('ivalid id')
     elif choice=='4':
         name=input("Enter contact name to remove: ")
         if name in contacts:
