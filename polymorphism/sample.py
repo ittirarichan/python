@@ -43,23 +43,23 @@
 
 # obj=demo('akhil',25)
 
-class sample:
-    def display(self,name,age):
-        print("Sample class display method")
-        print(name,age)
+# class sample:
+#     def display(self,name,age):
+#         print("Sample class display method")
+#         print(name,age)
 
-    def s1(self):
-        print("Sample class s1 method")
+#     def s1(self):
+#         print("Sample class s1 method")
 
-class demo(sample):
-    def display(self,name,age):
-        print(name,age)
-        print("Start")
-        print("Demo class display method")
-        super().display(name,age)
+# class demo(sample):
+#     def display(self,name,age):
+#         print(name,age)
+#         print("Start")
+#         print("Demo class display method")
+#         super().display(name,age)
 
-    def d1(self):
-        print("demo class d1 method")
+#     def d1(self):
+#         print("demo class d1 method")
 
-obj=demo()
-obj.display('akhil',25)
+# obj=demo()
+# obj.display('akhil',25)
