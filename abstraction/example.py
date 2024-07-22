@@ -21,37 +21,3 @@
 # print('cat')
 # c=cat()
 # c.run()
-
-
-a='WelComE'
-import re
-# print(re.sub('w','W',a))
-# print(re.sub('welcome','PYTHON',a))
-# print(re.split('e',a))
-# print(re.split('e',a,1))
-# print(len(re.findall('e',a)))
-# print(re.search('z',a))
-
-# if re.search('w',a):
-#     print("yes")
-# else:
-#     print("No")
-
-# print(re.search('welcome',a))
-# print(re.search('d.',a))
-# print(re.search(a,a))
-# print(re.search('d',a))
-# print(re.search('a.',a))
-# print(re.search('b.',a))
-# print(re.search('c.',a))
-# print(re.search('d.',a))
-# print(re.search('b..',a))
-# print(re.search('a.*',a))
-# print(re.search('d.*',a))
-# print(re.search('a.+',a))
-# print(re.search('d.+',a))
-# print(re.search('c.+',a))
-# print(re.search('c.?',a))
-# print(re.search('d.?',a))
-# print(re.search('a.?',a))
-print(re.search('[A-W]',a))
