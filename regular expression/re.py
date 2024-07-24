@@ -79,10 +79,10 @@
 
 
 # password validation
-import re
-a=input("Enter a password ")
-pattern = r"^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]).{8,}$"
-if re.search('pattern].',a):
-    print("valid")
-else:
-    print("Invalid")
+# import re
+# a=input("Enter a password ")
+# pattern = r"^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[!@#$%^&*()_+\-=\[\]{}|;:,.<>?]).{8,}$"
+# if re.search('pattern].',a):
+#     print("valid")
+# else:
+#     print("Invalid")
